@@ -1,0 +1,73 @@
+:root {
+  --primary-color: #075985;
+  --secondary-color: #64748b;
+  --text-color: wheat;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 2rem;
+  color: wheat;
+}
+
+h1 {
+  color: #fff;
+}
+input {
+  padding: 0.75rem;
+  border-radius: 0px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  margin: 0.75rem;
+  font-weight: 700;
+  color: white;
+}
+.btn {
+  width: fit-content;
+  padding: 10px 20px;
+  border: none;
+  color: darkslategrey;
+  margin: 1rem auto;
+  background-color: wheat;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  margin: 0.75rem;
+  font-weight: 700;
+  color: white;
+}
+th {
+  background-color: wheat;
+  border: 2px solid darkslategrey;
+  color: darkslategrey;
+}
+td {
+  padding: 9px;
+  border: 2px solid darkslategrey;
+  background-color: white;
+  /* height: 0.8rem; */
+  width: 4ch;
+  color: darkslategrey;
+}
+
+.notes {
+  background-color: wheat;
+}
